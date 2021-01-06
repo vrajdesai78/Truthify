@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "872740055097",
+    "project_id": "counterfiet-detection",
+    "storage_bucket": "counterfiet-detection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872740055097:android:087ef8872428174adb85e8",
+        "android_client_info": {
+          "package_name": "com.vrajdesai78.counterfietdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872740055097-e7h84mjv6kjosnt21drl5ob83dn95jv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9fncovSFtdTkVwEhsvwGHrxIKBEzlhRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872740055097-e7h84mjv6kjosnt21drl5ob83dn95jv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
