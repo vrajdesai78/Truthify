@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Counterfiet Detection"
+rootProject.name = "Truthify"
