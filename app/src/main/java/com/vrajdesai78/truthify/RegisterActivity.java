@@ -133,7 +133,7 @@ public class RegisterActivity extends AppCompatActivity {
                         public void onSuccess(Void aVoid) {
                             Toast.makeText(RegisterActivity.this, "User Created Successfully", Toast.LENGTH_SHORT).show();
                             Log.d("Tag", "onSuccess");
-                            startActivity(new Intent(RegisterActivity.this, MainActivity.class));
+                            startActivity(new Intent(RegisterActivity.this, HomeActivity.class));
                             finish();
                         }
                     });
@@ -191,7 +191,7 @@ public class RegisterActivity extends AppCompatActivity {
                     documentReference.set(user1).addOnSuccessListener(new OnSuccessListener<Void>() {
                         @Override
                         public void onSuccess(Void aVoid) {
-                            startActivity(new Intent(RegisterActivity.this, MainActivity.class));
+                            startActivity(new Intent(RegisterActivity.this, HomeActivity.class));
                             finish();
                         }
                     });
@@ -210,7 +210,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         if(user != null)
         {
-            startActivity(new Intent(RegisterActivity.this, MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK));
+            startActivity(new Intent(RegisterActivity.this, HomeActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK));
         }
     }
 }
