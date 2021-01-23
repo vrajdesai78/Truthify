@@ -266,6 +266,7 @@ public class HomeActivity extends AppCompatActivity {
                             labeltxt.setText("Logo not found");
                         }
                     }
+                    clicked=null;
                 }
                 else {
                     for (FirebaseVisionImageLabel label : task.getResult()) {
